@@ -1,0 +1,107 @@
+/*login*/
+#object{
+	text-align: center;
+	align-items: center;
+}
+#logo{
+	color : pink;
+	font-family: "Times New Roman", Times, serif;
+    font-size:100px;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+    padding: 0px;
+    margin: 0px;
+}
+#form{
+	padding: 10px;
+	color : black;
+	font-family: "Times New Roman", Times, sans-serif;
+}
+.login_input{
+	height: 30px;
+	width: 200px;
+	border:1px solid red;
+	border-radius: 6px;
+	resize: both;
+}
+.login_input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+}
+
+#button1{
+	text-align: center;
+	height: 30px;
+	width: 80px;
+	font-size: 20px;
+	color: white;
+	background-color: pink; 
+	border:1px solid red;
+	border-radius: 6px;
+	position:absolute;
+	left:51.5%;
+}
+/*----*/
+/*teacher selection */
+.btn-lg{
+	position :absolute;
+	left:85%;
+}
+#button2{
+	position:absolute;
+	top:20%;
+	left:25%;
+	color: white;
+	background-color: green;
+	height: 40px;
+	width: 200px;
+	font-size: 20px;
+	border-radius: 6px;
+}
+#button3{
+	position: absolute;
+	top:20%;
+	left:50%;
+	color: white;
+	background-color: blue;
+	height: 40px;
+	width: 200px;
+	font-size: 20px;
+	border-radius: 6px;
+}
+#select{
+	text-align: center;
+	font-size: 50px;
+}
+/*----*/
+/* view section */
+table{
+	border-collapse: collapse;
+}
+th,tr,td{
+	border:1px solid black;
+	padding: 10px;
+}
+/*----*/
+/* student */
+#name{
+	padding :15px 15px 5px 15px;
+}
+#id{
+	padding :0px 15px 0px 15px;
+}
+#sec{
+	padding-left: 15px;
+}
+#score{
+	margin-left: 15px;
+}
+#point{
+	padding-left: 15px;
+}
+/*----*/
+/* check attendance */
+
+
+
+
+/* ---- */
